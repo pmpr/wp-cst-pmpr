@@ -1,0 +1,18 @@
+<div class="text-gray-500 d-flex justify-content-around">
+    {% for item in items %}
+        {% embed get_include_template('link') with {
+            attrs: {
+                rel: 'nofollow',
+                title: include(get_include_template('render_title')),
+                class: 'text-none-decoration text-center text-gray-300 hover-gray-200'
+            }
+        } %}
+            {% block content %}
+                {% include get_include_template('render_image') with {
+                    class: 'el-circle-sm m-auto icon-gray-400',
+                    image_size: '65x65'
+                }%}
+            {% endblock %}
+        {% endembed %}
+    {% endfor %}
+</div>

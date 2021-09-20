@@ -1,0 +1,7 @@
+<?php
+/*   _______________________________________
+    |  Obfuscated by PMPR - Php Obfuscator  |
+    |             6148eb2d1dcc1             |
+    |_______________________________________|
+*/
+ namespace Pmpr\Custom\Pmpr\Shortcode; use Pmpr\Common\Foundation\Media\Icon\Interfaces\IconFontawesomeInterface; use Pmpr\Package\AdvancedCMS\Shortcode\Post\Post; class Service extends Post { const SERVICES = "\x73\145\x72\166\x69\x63\x65\x73"; public function gogaagekwoisaqgu() { $this->icon = IconFontawesomeInterface::ICON_HAND_HOLDING_MAGIC; $this->title = __("\x53\x65\x72\x76\x69\x63\x65", PR__CTM__PMPR); } public function gkoiuyagqcoecigk() { parent::gkoiuyagqcoecigk(); add_shortcode("\x62\157\151\154\145\162\x5f{$this->aakmagwggmkoiiyu()}\137\155\165\154\164\151\160\x6c\x65", [$this, "\x6f\x73\145\x61\143\161\x69\x6d\x65\143\x77\x67\x67\x61\153\167"]); } public function ecwgiiuacoaokqkw() { $this->aucimgwswmgaocae($this->kwosaecaikgmoeyo()->mkksewyosgeumwsa(self::ymuegqgyuagyucws(self::TITLE, __("\x54\151\164\x6c\145", PR__CTM__PMPR))->iyouqgqicyqkiswi(6))->mkksewyosgeumwsa(self::ckuwucygcwsiawms(self::SERVICES, __("\123\145\x72\166\151\x63\145\x73", PR__CTM__PMPR))->oikgogcweiiaocka()->eukmukacucooequu(["\160\141\x72\x65\x6e\164" => 0])->oeewiaacscgyamai("\163\145\x72\166\x69\143\x65")->iyouqgqicyqkiswi(6))->mkksewyosgeumwsa(self::sciaycsmsiekqueg(self::DESCRIPTION, __("\x44\145\x73\x63\162\x69\x70\164\x69\157\156", PR__CTM__PMPR)))); } }

@@ -1,0 +1,24 @@
+{
+  "name": "pmpr-local/pw-ctm-pmpr",
+  "type": "project",
+  "license": "proprietary",
+  "description": "Pmpr Project Custom  Logics",
+  "keywords": [
+    "wordpress",
+    "package",
+    "pmpr"
+  ],
+  "require": {
+    "php": ">=7.4",
+    "pmpr/wp-cmn-foundation": "dev-main"
+  },
+  "autoload": {
+    "psr-4": {
+      "Pmpr\\Custom\\Pmpr\\": "src/Pmpr/Custom/Pmpr"
+    },
+    "files": [
+      "index.php"
+    ]
+  },
+  "minimum-stability": "dev"
+}
