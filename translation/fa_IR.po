@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pmpr Custom Pmpr\n"
 "Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
-"POT-Creation-Date: 2021-05-16 11:23+0430\n"
+"POT-Creation-Date: 2021-10-09 13:54+0330\n"
 "PO-Revision-Date: \n"
-"Last-Translator: Farshadi <Farshad_asgharzade@hotmail.com>\n"
+"Last-Translator:  Farshad Asgharzade <Farshad_asgharzade@hotmail.com>\n"
 "Language-Team: Your Team <translations@example.com>\n"
 "Language: fa_IR\n"
 "MIME-Version: 1.0\n"
@@ -33,7 +33,7 @@ msgstr "ویژگی‌ها"
 #: src/Pmpr/Custom/Pmpr/Attribute/Setting.php:35
 #: src/Pmpr/Custom/Pmpr/Qualification/Setting.php:30
 #: src/Pmpr/Custom/Pmpr/Qualification/Setting.php:32
-#: src/Pmpr/Custom/Pmpr/Woocommerce/Product.php:63
+#: src/Pmpr/Custom/Pmpr/Woocommerce/Product.php:62
 msgid "General"
 msgstr "عمومی"
 
@@ -44,7 +44,7 @@ msgstr "تکسونومی‌ها"
 #: src/Pmpr/Custom/Pmpr/Attribute/Setting.php:43
 #: src/Pmpr/Custom/Pmpr/Qualification/Setting.php:41
 #: src/Pmpr/Custom/Pmpr/Shortcode/Who.php:54
-#: src/Pmpr/Custom/Pmpr/Woocommerce/Product.php:102
+#: src/Pmpr/Custom/Pmpr/Woocommerce/Product.php:101
 msgid "Items"
 msgstr "آیتم‌ها‌"
 
@@ -87,7 +87,7 @@ msgid "Plural Name"
 msgstr "نام جمع"
 
 #: src/Pmpr/Custom/Pmpr/Attribute/Setting.php:84
-#: src/Pmpr/Custom/Pmpr/CPT/Service.php:68
+#: src/Pmpr/Custom/Pmpr/CPT/Service.php:69
 #: src/Pmpr/Custom/Pmpr/Shortcode/Service.php:49
 msgid "Description"
 msgstr "شرح"
@@ -113,51 +113,51 @@ msgstr "تاریخ شروع"
 msgid "End date"
 msgstr "تاریخ پایان"
 
-#: src/Pmpr/Custom/Pmpr/CPT/Service.php:35
+#: src/Pmpr/Custom/Pmpr/CPT/Service.php:36
 #: src/Pmpr/Custom/Pmpr/Shortcode/Service.php:41
 msgid "Services"
 msgstr "خدمات"
 
-#: src/Pmpr/Custom/Pmpr/CPT/Service.php:37
+#: src/Pmpr/Custom/Pmpr/CPT/Service.php:38
 #: src/Pmpr/Custom/Pmpr/Shortcode/Service.php:19
 msgid "Service"
 msgstr "خدمت"
 
-#: src/Pmpr/Custom/Pmpr/CPT/Service.php:39
+#: src/Pmpr/Custom/Pmpr/CPT/Service.php:40
 msgid "Service post type"
 msgstr "نوع نوشته خدمت"
 
-#: src/Pmpr/Custom/Pmpr/CPT/Service.php:59
+#: src/Pmpr/Custom/Pmpr/CPT/Service.php:60
 msgid "Extra Meta"
 msgstr "متای بیشتر"
 
-#: src/Pmpr/Custom/Pmpr/CPT/Service.php:90
+#: src/Pmpr/Custom/Pmpr/CPT/Service.php:91
 msgid "More Information"
 msgstr "اطلاعات بیشتر"
 
-#: src/Pmpr/Custom/Pmpr/CPT/Service.php:91
+#: src/Pmpr/Custom/Pmpr/CPT/Service.php:92
 #, php-format
 msgid "Other %s"
 msgstr "%s دیگر"
 
-#: src/Pmpr/Custom/Pmpr/CPT/Service.php:136
+#: src/Pmpr/Custom/Pmpr/CPT/Service.php:137
 #, php-format
 msgid "basket of %s %s"
 msgstr "سبد  %s %s"
 
-#: src/Pmpr/Custom/Pmpr/CPT/Technology.php:22
+#: src/Pmpr/Custom/Pmpr/CPT/Technology.php:23
 msgid "Technologies"
 msgstr "تکنولوژی"
 
-#: src/Pmpr/Custom/Pmpr/CPT/Technology.php:24
+#: src/Pmpr/Custom/Pmpr/CPT/Technology.php:25
 msgid "Technology"
 msgstr "تکنولوژی"
 
-#: src/Pmpr/Custom/Pmpr/CPT/Technology.php:28
+#: src/Pmpr/Custom/Pmpr/CPT/Technology.php:29
 msgid "Technology post type"
 msgstr "نوع نوشته تکنولوژی"
 
-#: src/Pmpr/Custom/Pmpr/CPT/Technology.php:46
+#: src/Pmpr/Custom/Pmpr/CPT/Technology.php:47
 msgid "Icon"
 msgstr "آیکون"
 
@@ -177,16 +177,20 @@ msgstr "سطح مقاله"
 msgid "level for posts"
 msgstr "سطح مقاله برای نوشته‌ها"
 
-#: src/Pmpr/Custom/Pmpr/Qualification/Qualification.php:65
+#: src/Pmpr/Custom/Pmpr/Pmpr.php:78
+msgid "Modules"
+msgstr "ماژول‌ها"
+
+#: src/Pmpr/Custom/Pmpr/Qualification/Qualification.php:61
 msgid "Comment Qualifications"
 msgstr ""
 
-#: src/Pmpr/Custom/Pmpr/Qualification/Qualification.php:259
+#: src/Pmpr/Custom/Pmpr/Qualification/Qualification.php:258
 #, php-format
-msgid "%s Ownership"
-msgstr "%s مشتری"
+msgid "%s Client"
+msgstr ""
 
-#: src/Pmpr/Custom/Pmpr/Qualification/Qualification.php:261
+#: src/Pmpr/Custom/Pmpr/Qualification/Qualification.php:259
 #, php-format
 msgid "from %s until today"
 msgstr "از %s تا امروز"
@@ -266,11 +270,11 @@ msgid "Select user for show experience date in shortcode."
 msgstr "برای نمایش میزان تجربه کاربر مورد نظر را انتخاب کنید."
 
 #: src/Pmpr/Custom/Pmpr/Shortcode/Who.php:60
-#: src/Pmpr/Custom/Pmpr/Woocommerce/Product.php:106
+#: src/Pmpr/Custom/Pmpr/Woocommerce/Product.php:105
 msgid "Text"
 msgstr "متن"
 
-#: src/Pmpr/Custom/Pmpr/Shortcode/Who.php:87 src/Pmpr/Custom/Pmpr/User.php:188
+#: src/Pmpr/Custom/Pmpr/Shortcode/Who.php:87 src/Pmpr/Custom/Pmpr/User.php:186
 #, php-format
 msgid "%s Years"
 msgstr "%s سال"
@@ -284,60 +288,134 @@ msgstr "%s کیست؟"
 msgid "Consultation, Supervision, Implementation"
 msgstr "مشاوره، نظارت و اجرا"
 
-#: src/Pmpr/Custom/Pmpr/User.php:94
+#: src/Pmpr/Custom/Pmpr/User.php:92
 msgid "Member"
 msgstr "عضو"
 
-#: src/Pmpr/Custom/Pmpr/User.php:189
+#: src/Pmpr/Custom/Pmpr/User.php:187
 msgid "Experience"
 msgstr "سابقه حرفه‌ای"
 
-#: src/Pmpr/Custom/Pmpr/Woocommerce/Product.php:58
+#: src/Pmpr/Custom/Pmpr/Woocommerce/Attribute.php:93
+msgid "Attribute Type"
+msgstr "نوع ویژگی‌"
+
+#: src/Pmpr/Custom/Pmpr/Woocommerce/Attribute.php:95
+msgid "Normal"
+msgstr ""
+
+#: src/Pmpr/Custom/Pmpr/Woocommerce/Attribute.php:96
+msgid "Loop"
+msgstr ""
+
+#: src/Pmpr/Custom/Pmpr/Woocommerce/Attribute.php:97
+msgid "Show on Cart"
+msgstr "نمایش در سبد خرید"
+
+#: src/Pmpr/Custom/Pmpr/Woocommerce/Attribute.php:98
+msgid "Top Feature"
+msgstr "ویژگی برتر"
+
+#: src/Pmpr/Custom/Pmpr/Woocommerce/Product.php:57
 msgid "Product Information"
 msgstr "معرفی محصول"
 
-#: src/Pmpr/Custom/Pmpr/Woocommerce/Product.php:67
-#: src/Pmpr/Custom/Pmpr/Woocommerce/Product.php:261
+#: src/Pmpr/Custom/Pmpr/Woocommerce/Product.php:66
+#: src/Pmpr/Custom/Pmpr/Woocommerce/Product.php:224
 msgid "Dependencies"
 msgstr "وابستگی‌ها"
 
-#: src/Pmpr/Custom/Pmpr/Woocommerce/Product.php:73
+#: src/Pmpr/Custom/Pmpr/Woocommerce/Product.php:72
 msgid "Compositions"
 msgstr "اجزا"
 
-#: src/Pmpr/Custom/Pmpr/Woocommerce/Product.php:79
+#: src/Pmpr/Custom/Pmpr/Woocommerce/Product.php:78
 msgid "Enable Consent"
 msgstr "فعال سازی توافقنامه"
 
-#: src/Pmpr/Custom/Pmpr/Woocommerce/Product.php:87
+#: src/Pmpr/Custom/Pmpr/Woocommerce/Product.php:86
 msgid "Consent Title"
 msgstr "عنوان توافقنامه"
 
-#: src/Pmpr/Custom/Pmpr/Woocommerce/Product.php:92
+#: src/Pmpr/Custom/Pmpr/Woocommerce/Product.php:91
 msgid "Consent Content"
 msgstr "محتوای توافقنامه"
 
-#: src/Pmpr/Custom/Pmpr/Woocommerce/Product.php:98
-#: src/Pmpr/Custom/Pmpr/Woocommerce/Product.php:281
+#: src/Pmpr/Custom/Pmpr/Woocommerce/Product.php:97
+#: src/Pmpr/Custom/Pmpr/Woocommerce/Product.php:244
 msgid "Prerequisites"
 msgstr "پیش نیازها"
 
-#: src/Pmpr/Custom/Pmpr/Woocommerce/Product.php:197
-msgid "- Close"
-msgstr "- بستن"
-
-#: src/Pmpr/Custom/Pmpr/Woocommerce/Product.php:198
-msgid "+ More Items"
-msgstr "+ موارد بیشتر"
-
-#: src/Pmpr/Custom/Pmpr/Woocommerce/Product.php:200
-msgid "Features"
-msgstr "ویژگی‌ها"
-
-#: src/Pmpr/Custom/Pmpr/Woocommerce/Product.php:241
+#: src/Pmpr/Custom/Pmpr/Woocommerce/Product.php:204
 msgid "Standards"
 msgstr "استانداردها"
 
-#: src/Pmpr/Custom/Pmpr/Woocommerce/Product.php:341
+#: src/Pmpr/Custom/Pmpr/Woocommerce/Product.php:303
 msgid "Cancel"
 msgstr "انصراف"
+
+#: src/Pmpr/Custom/Pmpr/Woocommerce/Subscription/Manipulate.php:133
+msgctxt "Subscription length"
+msgid "Never expire"
+msgstr ""
+
+#: src/Pmpr/Custom/Pmpr/Woocommerce/Subscription/Manipulate.php:137
+msgctxt "Subscription lengths. e.g. \"For 1 day...\""
+msgid "1 day"
+msgstr ""
+
+#: src/Pmpr/Custom/Pmpr/Woocommerce/Subscription/Manipulate.php:141
+msgctxt "Subscription lengths. e.g. \"For 1 week...\""
+msgid "1 week"
+msgstr ""
+
+#: src/Pmpr/Custom/Pmpr/Woocommerce/Subscription/Manipulate.php:145
+msgctxt "Subscription lengths. e.g. \"For 1 month...\""
+msgid "1 month"
+msgstr ""
+
+#: src/Pmpr/Custom/Pmpr/Woocommerce/Subscription/Manipulate.php:149
+msgctxt "Subscription lengths. e.g. \"For 1 year...\""
+msgid "1 year"
+msgstr ""
+
+#: src/Pmpr/Custom/Pmpr/Woocommerce/Subscription/Manipulate.php:202
+#, php-format
+msgctxt "Subscription billing period."
+msgid "day"
+msgid_plural "%s days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/Pmpr/Custom/Pmpr/Woocommerce/Subscription/Manipulate.php:204
+#, php-format
+msgctxt "Subscription billing period."
+msgid "week"
+msgid_plural "%s weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/Pmpr/Custom/Pmpr/Woocommerce/Subscription/Manipulate.php:206
+#, php-format
+msgctxt "Subscription billing period."
+msgid "month"
+msgid_plural "%s months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/Pmpr/Custom/Pmpr/Woocommerce/Subscription/Manipulate.php:208
+#, php-format
+msgctxt "Subscription billing period."
+msgid "year"
+msgid_plural "%s years"
+msgstr[0] ""
+msgstr[1] ""
+
+#~ msgid "%s Ownership"
+#~ msgstr "%s مشتری"
+
+#~ msgid "- Close"
+#~ msgstr "- بستن"
+
+#~ msgid "+ More Items"
+#~ msgstr "+ موارد بیشتر"
