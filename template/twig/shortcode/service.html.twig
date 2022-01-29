@@ -41,7 +41,7 @@
                     </div>
 
                     {% set attribute_values %}
-                        {{ do_action('attribute_values', service) }}
+                        {{ do_action('attribute_render_values'|generate_hook, service) }}
                     {% endset %}
 
                     {% if attribute_values.content is not empty %}
