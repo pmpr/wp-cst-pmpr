@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             61f648e49e245             |
+    |             6213766f2a16f             |
     |_______________________________________|
 */
  namespace Pmpr\Custom\Pmpr\Woocommerce\Subscription\Product; use WC_Product_Variable; class Variable extends WC_Product_Variable { }
