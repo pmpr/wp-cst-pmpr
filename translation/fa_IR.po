@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pmpr Custom Pmpr\n"
 "Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
-"POT-Creation-Date: 2021-10-12 14:24+0330\n"
+"POT-Creation-Date: 2022-03-03 10:35+0330\n"
 "PO-Revision-Date: \n"
-"Last-Translator:  Farshad Asgharzade <Farshad_asgharzade@hotmail.com>\n"
+"Last-Translator: PMPR <pmpr.ir@gmail.com>\n"
 "Language-Team: Your Team <translations@example.com>\n"
 "Language: fa_IR\n"
 "MIME-Version: 1.0\n"
@@ -26,46 +26,100 @@ msgstr ""
 "X-Poedit-SearchPathExcluded-3: asset\n"
 "X-Poedit-SearchPathExcluded-4: build\n"
 
-#: src/Pmpr/Custom/Pmpr/Attribute/Setting.php:28
+#: src/Pmpr/Custom/Pmpr/Attribute/Attribute.php:109
+#, php-format
+msgid "Edit %s"
+msgstr "ویرایش %s"
+
+#: src/Pmpr/Custom/Pmpr/Attribute/Attribute.php:110
+#, php-format
+msgid "All %s"
+msgstr "همه %s"
+
+#: src/Pmpr/Custom/Pmpr/Attribute/Attribute.php:111
+#, php-format
+msgid "No %s found."
+msgstr "%s یافت نشد."
+
+#: src/Pmpr/Custom/Pmpr/Attribute/Attribute.php:112
+#, php-format
+msgid "Update %s"
+msgstr "به روز رسانی %s"
+
+#: src/Pmpr/Custom/Pmpr/Attribute/Attribute.php:113
+#: src/Pmpr/Custom/Pmpr/Attribute/Attribute.php:119
+#, php-format
+msgid "Parent %s"
+msgstr "والد %s"
+
+#: src/Pmpr/Custom/Pmpr/Attribute/Attribute.php:114
+#, php-format
+msgid "Search %s"
+msgstr "جستجوی %s"
+
+#: src/Pmpr/Custom/Pmpr/Attribute/Attribute.php:115
+#, php-format
+msgid "Add New %s"
+msgstr "افزودن %s جدید"
+
+#: src/Pmpr/Custom/Pmpr/Attribute/Attribute.php:117
+#, php-format
+msgid "New %s"
+msgstr "افزودن %s"
+
+#: src/Pmpr/Custom/Pmpr/Attribute/Attribute.php:118
+#, php-format
+msgid "Popular %s"
+msgstr "محبوب‌ترین %s"
+
+#: src/Pmpr/Custom/Pmpr/Attribute/Attribute.php:120
+#, php-format
+msgid "Add or remove %s"
+msgstr "افزودن یا حذف %s"
+
+#: src/Pmpr/Custom/Pmpr/Attribute/Attribute.php:121
+#, php-format
+msgid "Choose from the most used %s"
+msgstr "انتخاب از بین %s بیشتر انتخاب شده"
+
+#: src/Pmpr/Custom/Pmpr/Attribute/Attribute.php:122
+#, php-format
+msgid "Separate %s with commas"
+msgstr "%s را با کاما جدا کنید"
+
+#: src/Pmpr/Custom/Pmpr/Attribute/Setting.php:30
 msgid "Attributes"
 msgstr "ویژگی‌ها"
 
-#: src/Pmpr/Custom/Pmpr/Attribute/Setting.php:35
-#: src/Pmpr/Custom/Pmpr/Qualification/Setting.php:30
-#: src/Pmpr/Custom/Pmpr/Qualification/Setting.php:32
-#: src/Pmpr/Custom/Pmpr/Woocommerce/Product.php:62
+#: src/Pmpr/Custom/Pmpr/Attribute/Setting.php:34
+#: src/Pmpr/Custom/Pmpr/Qualification/Setting.php:34
+#: src/Pmpr/Custom/Pmpr/Setting.php:34 src/Pmpr/Custom/Pmpr/Setting.php:38
+#: src/Pmpr/Custom/Pmpr/Woocommerce/Product.php:68
 msgid "General"
 msgstr "عمومی"
 
-#: src/Pmpr/Custom/Pmpr/Attribute/Setting.php:39
+#: src/Pmpr/Custom/Pmpr/Attribute/Setting.php:38
 msgid "Taxonomies"
 msgstr "تکسونومی‌ها"
 
-#: src/Pmpr/Custom/Pmpr/Attribute/Setting.php:43
-#: src/Pmpr/Custom/Pmpr/Qualification/Setting.php:41
-#: src/Pmpr/Custom/Pmpr/Shortcode/Who.php:54
-#: src/Pmpr/Custom/Pmpr/Woocommerce/Product.php:101
-msgid "Items"
-msgstr "آیتم‌ها‌"
-
-#: src/Pmpr/Custom/Pmpr/Attribute/Setting.php:47
+#: src/Pmpr/Custom/Pmpr/Attribute/Setting.php:42
 msgid "Enable Taxonomy"
 msgstr "فعال سازی تکسنومی"
 
-#: src/Pmpr/Custom/Pmpr/Attribute/Setting.php:51
+#: src/Pmpr/Custom/Pmpr/Attribute/Setting.php:47
 msgid "Single value"
 msgstr "تک مقداری"
 
-#: src/Pmpr/Custom/Pmpr/Attribute/Setting.php:55
+#: src/Pmpr/Custom/Pmpr/Attribute/Setting.php:52
 msgid "Priority"
 msgstr "اولویت"
 
-#: src/Pmpr/Custom/Pmpr/Attribute/Setting.php:58
+#: src/Pmpr/Custom/Pmpr/Attribute/Setting.php:56
 msgid "Icon of taxonomy"
 msgstr "آیکون تکسونومی"
 
-#: src/Pmpr/Custom/Pmpr/Attribute/Setting.php:61
-#: src/Pmpr/Custom/Pmpr/Qualification/Setting.php:60
+#: src/Pmpr/Custom/Pmpr/Attribute/Setting.php:60
+#: src/Pmpr/Custom/Pmpr/Qualification/Setting.php:57
 msgid "Slug"
 msgstr "نامک"
 
@@ -73,21 +127,21 @@ msgstr "نامک"
 msgid "Taxonomy Name"
 msgstr "نام تکسونومی"
 
-#: src/Pmpr/Custom/Pmpr/Attribute/Setting.php:69
-#: src/Pmpr/Custom/Pmpr/Qualification/Setting.php:74
+#: src/Pmpr/Custom/Pmpr/Attribute/Setting.php:70
+#: src/Pmpr/Custom/Pmpr/Qualification/Setting.php:71
 msgid "Post Types"
 msgstr "انواع نوشته"
 
-#: src/Pmpr/Custom/Pmpr/Attribute/Setting.php:76
+#: src/Pmpr/Custom/Pmpr/Attribute/Setting.php:78
 msgid "Singular Name"
 msgstr "نام منفرد"
 
-#: src/Pmpr/Custom/Pmpr/Attribute/Setting.php:80
+#: src/Pmpr/Custom/Pmpr/Attribute/Setting.php:83
 msgid "Plural Name"
 msgstr "نام جمع"
 
-#: src/Pmpr/Custom/Pmpr/Attribute/Setting.php:84
-#: src/Pmpr/Custom/Pmpr/CPT/Service.php:69
+#: src/Pmpr/Custom/Pmpr/Attribute/Setting.php:88
+#: src/Pmpr/Custom/Pmpr/CPT/Service.php:73
 #: src/Pmpr/Custom/Pmpr/Shortcode/Service.php:49
 msgid "Description"
 msgstr "شرح"
@@ -113,34 +167,34 @@ msgstr "تاریخ شروع"
 msgid "End date"
 msgstr "تاریخ پایان"
 
-#: src/Pmpr/Custom/Pmpr/CPT/Service.php:36
+#: src/Pmpr/Custom/Pmpr/CPT/Service.php:39
 #: src/Pmpr/Custom/Pmpr/Shortcode/Service.php:41
 msgid "Services"
 msgstr "خدمات"
 
-#: src/Pmpr/Custom/Pmpr/CPT/Service.php:38
+#: src/Pmpr/Custom/Pmpr/CPT/Service.php:41
 #: src/Pmpr/Custom/Pmpr/Shortcode/Service.php:19
 msgid "Service"
 msgstr "خدمت"
 
-#: src/Pmpr/Custom/Pmpr/CPT/Service.php:40
+#: src/Pmpr/Custom/Pmpr/CPT/Service.php:43
 msgid "Service post type"
 msgstr "نوع نوشته خدمت"
 
-#: src/Pmpr/Custom/Pmpr/CPT/Service.php:60
+#: src/Pmpr/Custom/Pmpr/CPT/Service.php:64
 msgid "Extra Meta"
 msgstr "متای بیشتر"
 
-#: src/Pmpr/Custom/Pmpr/CPT/Service.php:91
+#: src/Pmpr/Custom/Pmpr/CPT/Service.php:94
 msgid "More Information"
 msgstr "اطلاعات بیشتر"
 
-#: src/Pmpr/Custom/Pmpr/CPT/Service.php:92
+#: src/Pmpr/Custom/Pmpr/CPT/Service.php:95
 #, php-format
 msgid "Other %s"
 msgstr "%s دیگر"
 
-#: src/Pmpr/Custom/Pmpr/CPT/Service.php:137
+#: src/Pmpr/Custom/Pmpr/CPT/Service.php:141
 #, php-format
 msgid "basket of %s %s"
 msgstr "سبد  %s %s"
@@ -153,15 +207,15 @@ msgstr "تکنولوژی"
 msgid "Technology"
 msgstr "تکنولوژی"
 
-#: src/Pmpr/Custom/Pmpr/CPT/Technology.php:29
+#: src/Pmpr/Custom/Pmpr/CPT/Technology.php:28
 msgid "Technology post type"
 msgstr "نوع نوشته تکنولوژی"
 
-#: src/Pmpr/Custom/Pmpr/CPT/Technology.php:47
+#: src/Pmpr/Custom/Pmpr/CPT/Technology.php:45
 msgid "Icon"
 msgstr "آیکون"
 
-#: src/Pmpr/Custom/Pmpr/CPT/Technology.php:55
+#: src/Pmpr/Custom/Pmpr/CPT/Technology.php:51
 msgid "Show on footer"
 msgstr "نمایش در فوتتر"
 
@@ -177,53 +231,62 @@ msgstr "سطح مقاله"
 msgid "level for posts"
 msgstr "سطح مقاله برای نوشته‌ها"
 
-#: src/Pmpr/Custom/Pmpr/Pmpr.php:78
+#: src/Pmpr/Custom/Pmpr/Panel/Panel.php:34
 msgid "Modules"
 msgstr "ماژول‌ها"
 
-#: src/Pmpr/Custom/Pmpr/Qualification/Qualification.php:61
+#: src/Pmpr/Custom/Pmpr/Qualification/Qualification.php:66
 msgid "Comment Qualifications"
 msgstr ""
 
-#: src/Pmpr/Custom/Pmpr/Qualification/Qualification.php:258
+#: src/Pmpr/Custom/Pmpr/Qualification/Qualification.php:261
 #, php-format
 msgid "%s Client"
-msgstr ""
+msgstr "%s مشتری"
 
-#: src/Pmpr/Custom/Pmpr/Qualification/Qualification.php:259
+#: src/Pmpr/Custom/Pmpr/Qualification/Qualification.php:262
 #, php-format
-msgid "from %s until today"
+msgid "From %s until today"
 msgstr "از %s تا امروز"
 
-#: src/Pmpr/Custom/Pmpr/Qualification/Setting.php:21
+#: src/Pmpr/Custom/Pmpr/Qualification/Setting.php:30
 msgid "Qualification"
 msgstr ""
 
-#: src/Pmpr/Custom/Pmpr/Qualification/Setting.php:36
-#: src/Pmpr/Custom/Pmpr/Qualification/Setting.php:45
+#: src/Pmpr/Custom/Pmpr/Qualification/Setting.php:38
+#: src/Pmpr/Custom/Pmpr/Shortcode/Who.php:50
+#: src/Pmpr/Custom/Pmpr/Woocommerce/Product.php:107
+msgid "Items"
+msgstr "آیتم‌ها‌"
+
+#: src/Pmpr/Custom/Pmpr/Qualification/Setting.php:42
 msgid "Enable"
 msgstr "فعال"
 
-#: src/Pmpr/Custom/Pmpr/Qualification/Setting.php:50
+#: src/Pmpr/Custom/Pmpr/Qualification/Setting.php:47
 msgid "Anonymous users"
 msgstr "کاربران ثبت نام نشده"
 
-#: src/Pmpr/Custom/Pmpr/Qualification/Setting.php:55
+#: src/Pmpr/Custom/Pmpr/Qualification/Setting.php:52
 #: src/Pmpr/Custom/Pmpr/Shortcode/Service.php:35
 msgid "Title"
 msgstr "عنوان"
 
-#: src/Pmpr/Custom/Pmpr/Qualification/Setting.php:65
+#: src/Pmpr/Custom/Pmpr/Qualification/Setting.php:62
 msgid "Layout"
 msgstr "چینش صفحه"
 
-#: src/Pmpr/Custom/Pmpr/Qualification/Setting.php:67
+#: src/Pmpr/Custom/Pmpr/Qualification/Setting.php:64
 msgid "Rating"
 msgstr "امتیاز"
 
-#: src/Pmpr/Custom/Pmpr/Qualification/Setting.php:68
+#: src/Pmpr/Custom/Pmpr/Qualification/Setting.php:65
 msgid "Dropdown"
 msgstr "کر‌کره‌ای"
+
+#: src/Pmpr/Custom/Pmpr/Setting.php:25
+msgid "Pmpr Setting"
+msgstr "تنظیمات سفارشی"
 
 #: src/Pmpr/Custom/Pmpr/Shortcode/Team.php:23
 msgid "Team"
@@ -253,38 +316,38 @@ msgstr "همکاران"
 msgid "Select some users as partners"
 msgstr "انتخاب همکاران"
 
-#: src/Pmpr/Custom/Pmpr/Shortcode/Who.php:29
+#: src/Pmpr/Custom/Pmpr/Shortcode/Who.php:27
 msgid "Who is"
 msgstr "کیست"
 
-#: src/Pmpr/Custom/Pmpr/Shortcode/Who.php:39
+#: src/Pmpr/Custom/Pmpr/Shortcode/Who.php:37
 msgid "Image"
 msgstr "تصویر"
 
-#: src/Pmpr/Custom/Pmpr/Shortcode/Who.php:47
+#: src/Pmpr/Custom/Pmpr/Shortcode/Who.php:44
 msgid "User"
 msgstr "کاربر"
 
-#: src/Pmpr/Custom/Pmpr/Shortcode/Who.php:49
+#: src/Pmpr/Custom/Pmpr/Shortcode/Who.php:46
 msgid "Select user for show experience date in shortcode."
 msgstr "برای نمایش میزان تجربه کاربر مورد نظر را انتخاب کنید."
 
-#: src/Pmpr/Custom/Pmpr/Shortcode/Who.php:60
-#: src/Pmpr/Custom/Pmpr/Woocommerce/Product.php:105
+#: src/Pmpr/Custom/Pmpr/Shortcode/Who.php:55
+#: src/Pmpr/Custom/Pmpr/Woocommerce/Product.php:111
 msgid "Text"
 msgstr "متن"
 
-#: src/Pmpr/Custom/Pmpr/Shortcode/Who.php:87 src/Pmpr/Custom/Pmpr/User.php:186
+#: src/Pmpr/Custom/Pmpr/Shortcode/Who.php:82 src/Pmpr/Custom/Pmpr/User.php:186
 #, php-format
 msgid "%s Years"
 msgstr "%s سال"
 
-#: src/Pmpr/Custom/Pmpr/Shortcode/Who.php:91
+#: src/Pmpr/Custom/Pmpr/Shortcode/Who.php:86
 #, php-format
 msgid "Who is %s?"
 msgstr "%s کیست؟"
 
-#: src/Pmpr/Custom/Pmpr/Shortcode/Who.php:92
+#: src/Pmpr/Custom/Pmpr/Shortcode/Who.php:87
 msgid "Consultation, Supervision, Implementation"
 msgstr "مشاوره، نظارت و اجرا"
 
@@ -302,7 +365,7 @@ msgstr "نوع ویژگی‌"
 
 #: src/Pmpr/Custom/Pmpr/Woocommerce/Attribute.php:95
 msgid "Normal"
-msgstr ""
+msgstr "معمولی"
 
 #: src/Pmpr/Custom/Pmpr/Woocommerce/Attribute.php:96
 msgid "Loop"
@@ -316,41 +379,41 @@ msgstr "نمایش در سبد خرید"
 msgid "Top Feature"
 msgstr "ویژگی برتر"
 
-#: src/Pmpr/Custom/Pmpr/Woocommerce/Product.php:57
+#: src/Pmpr/Custom/Pmpr/Woocommerce/Product.php:63
 msgid "Product Information"
 msgstr "معرفی محصول"
 
-#: src/Pmpr/Custom/Pmpr/Woocommerce/Product.php:66
-#: src/Pmpr/Custom/Pmpr/Woocommerce/Product.php:224
+#: src/Pmpr/Custom/Pmpr/Woocommerce/Product.php:72
+#: src/Pmpr/Custom/Pmpr/Woocommerce/Product.php:319
 msgid "Dependencies"
 msgstr "وابستگی‌ها"
 
-#: src/Pmpr/Custom/Pmpr/Woocommerce/Product.php:72
+#: src/Pmpr/Custom/Pmpr/Woocommerce/Product.php:78
 msgid "Compositions"
 msgstr "اجزا"
 
-#: src/Pmpr/Custom/Pmpr/Woocommerce/Product.php:78
+#: src/Pmpr/Custom/Pmpr/Woocommerce/Product.php:84
 msgid "Enable Consent"
 msgstr "فعال سازی توافقنامه"
 
-#: src/Pmpr/Custom/Pmpr/Woocommerce/Product.php:86
+#: src/Pmpr/Custom/Pmpr/Woocommerce/Product.php:92
 msgid "Consent Title"
 msgstr "عنوان توافقنامه"
 
-#: src/Pmpr/Custom/Pmpr/Woocommerce/Product.php:91
+#: src/Pmpr/Custom/Pmpr/Woocommerce/Product.php:97
 msgid "Consent Content"
 msgstr "محتوای توافقنامه"
 
-#: src/Pmpr/Custom/Pmpr/Woocommerce/Product.php:97
-#: src/Pmpr/Custom/Pmpr/Woocommerce/Product.php:244
+#: src/Pmpr/Custom/Pmpr/Woocommerce/Product.php:103
+#: src/Pmpr/Custom/Pmpr/Woocommerce/Product.php:339
 msgid "Prerequisites"
 msgstr "پیش نیازها"
 
-#: src/Pmpr/Custom/Pmpr/Woocommerce/Product.php:204
+#: src/Pmpr/Custom/Pmpr/Woocommerce/Product.php:299
 msgid "Standards"
 msgstr "استانداردها"
 
-#: src/Pmpr/Custom/Pmpr/Woocommerce/Product.php:303
+#: src/Pmpr/Custom/Pmpr/Woocommerce/Product.php:403
 msgid "Cancel"
 msgstr "انصراف"
 
