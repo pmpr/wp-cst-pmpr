@@ -4,4 +4,4 @@
     |             623655e5cecb6             |
     |_______________________________________|
 */
- use Pmpr\Custom\Pmpr\Pmpr; Pmpr::symcgieuakksimmu();
+ namespace Pmpr\Custom\Pmpr\Widget; use Pmpr\Common\Foundation\Widget; abstract class Common extends Widget { }
