@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pmpr Custom Pmpr\n"
 "Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
-"POT-Creation-Date: 2022-03-03 10:35+0330\n"
+"POT-Creation-Date: 2022-04-21 21:08+0430\n"
 "PO-Revision-Date: \n"
 "Last-Translator: PMPR <pmpr.ir@gmail.com>\n"
 "Language-Team: Your Team <translations@example.com>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,"
 "_nc:4c,1,2\n"
 "X-Poedit-Basepath: ..\n"
-"X-Generator: Poedit 2.3\n"
+"X-Generator: Poedit 3.0.1\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: node_modules\n"
 "X-Poedit-SearchPathExcluded-1: build\n"
@@ -93,7 +93,7 @@ msgstr "ویژگی‌ها"
 
 #: src/Pmpr/Custom/Pmpr/Attribute/Setting.php:34
 #: src/Pmpr/Custom/Pmpr/Qualification/Setting.php:34
-#: src/Pmpr/Custom/Pmpr/Setting.php:34 src/Pmpr/Custom/Pmpr/Setting.php:38
+#: src/Pmpr/Custom/Pmpr/Setting.php:42 src/Pmpr/Custom/Pmpr/Setting.php:66
 #: src/Pmpr/Custom/Pmpr/Woocommerce/Product.php:68
 msgid "General"
 msgstr "عمومی"
@@ -141,7 +141,8 @@ msgid "Plural Name"
 msgstr "نام جمع"
 
 #: src/Pmpr/Custom/Pmpr/Attribute/Setting.php:88
-#: src/Pmpr/Custom/Pmpr/CPT/Service.php:73
+#: src/Pmpr/Custom/Pmpr/CPT/Service.php:72
+#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:248
 #: src/Pmpr/Custom/Pmpr/Shortcode/Service.php:49
 msgid "Description"
 msgstr "شرح"
@@ -167,37 +168,144 @@ msgstr "تاریخ شروع"
 msgid "End date"
 msgstr "تاریخ پایان"
 
-#: src/Pmpr/Custom/Pmpr/CPT/Service.php:39
+#: src/Pmpr/Custom/Pmpr/CPT/Service.php:38
 #: src/Pmpr/Custom/Pmpr/Shortcode/Service.php:41
 msgid "Services"
 msgstr "خدمات"
 
-#: src/Pmpr/Custom/Pmpr/CPT/Service.php:41
+#: src/Pmpr/Custom/Pmpr/CPT/Service.php:40
 #: src/Pmpr/Custom/Pmpr/Shortcode/Service.php:19
 msgid "Service"
 msgstr "خدمت"
 
-#: src/Pmpr/Custom/Pmpr/CPT/Service.php:43
+#: src/Pmpr/Custom/Pmpr/CPT/Service.php:42
 msgid "Service post type"
 msgstr "نوع نوشته خدمت"
 
-#: src/Pmpr/Custom/Pmpr/CPT/Service.php:64
+#: src/Pmpr/Custom/Pmpr/CPT/Service.php:63
 msgid "Extra Meta"
 msgstr "متای بیشتر"
 
-#: src/Pmpr/Custom/Pmpr/CPT/Service.php:94
+#: src/Pmpr/Custom/Pmpr/CPT/Service.php:93
 msgid "More Information"
 msgstr "اطلاعات بیشتر"
 
-#: src/Pmpr/Custom/Pmpr/CPT/Service.php:95
+#: src/Pmpr/Custom/Pmpr/CPT/Service.php:94
 #, php-format
 msgid "Other %s"
 msgstr "%s دیگر"
 
-#: src/Pmpr/Custom/Pmpr/CPT/Service.php:141
+#: src/Pmpr/Custom/Pmpr/CPT/Service.php:122
 #, php-format
 msgid "basket of %s %s"
 msgstr "سبد  %s %s"
+
+#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:58
+msgid "Success Stories"
+msgstr "داستان‌های موفقیت"
+
+#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:59
+msgid "Success Story"
+msgstr "داستان موفقیت"
+
+#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:60
+msgid "Success story post type"
+msgstr "نوع نوشته داستان موفقیت"
+
+#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:107
+msgid "View Website"
+msgstr "مشاهده وب‌سایت"
+
+#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:114
+msgid "View Product"
+msgstr "مشاهده محصول"
+
+#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:117
+msgid "Buy"
+msgstr "خرید"
+
+#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:119
+#, php-format
+msgid "on %s"
+msgstr "در %s"
+
+#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:131
+msgid "Order Information"
+msgstr "اطلاعات سفارش"
+
+#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:136
+msgid "Product"
+msgstr "محصول"
+
+#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:141
+msgid "Date"
+msgstr "تاریخ"
+
+#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:147
+msgid "Business Information"
+msgstr "اطلاعات کسب و کار"
+
+#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:153
+msgid "Founder User"
+msgstr "کاربر بنیانگذار"
+
+#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:158
+msgid "Founder Name"
+msgstr "نام بنیانگذار"
+
+#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:163
+msgid "Business Name"
+msgstr "نام کسب و کار"
+
+#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:168
+msgid "Business URL"
+msgstr "لینک کسب و کار (وب سایت)"
+
+#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:173
+msgid "Video URL"
+msgstr "لینک ویدیو"
+
+#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:178
+msgid "Founder Avatar"
+msgstr "آواتار بنیان گذار"
+
+#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:183
+msgid "Business Logo"
+msgstr "لگوی کسب و کار"
+
+#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:188
+msgid "Business Description"
+msgstr "شرح کسب و کار"
+
+#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:210
+msgid "as he tells the story"
+msgstr "را از زبان خودش بشنوید"
+
+#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:212
+#, php-format
+msgid "Success story of %s"
+msgstr "داستان موفقیت %s"
+
+#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:213
+#, php-format
+msgid "in using %s"
+msgstr "به کمک %s"
+
+#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:239
+msgid "Archive Options"
+msgstr "گزینه‌های آرشیو"
+
+#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:243
+#: src/Pmpr/Custom/Pmpr/Qualification/Setting.php:52
+#: src/Pmpr/Custom/Pmpr/Setting.php:55 src/Pmpr/Custom/Pmpr/Setting.php:79
+#: src/Pmpr/Custom/Pmpr/Setting.php:105
+#: src/Pmpr/Custom/Pmpr/Shortcode/Service.php:35
+msgid "Title"
+msgstr "عنوان"
+
+#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:253
+msgid "Background IMage"
+msgstr ""
 
 #: src/Pmpr/Custom/Pmpr/CPT/Technology.php:23
 msgid "Technologies"
@@ -235,6 +343,28 @@ msgstr "سطح مقاله برای نوشته‌ها"
 msgid "Modules"
 msgstr "ماژول‌ها"
 
+#: src/Pmpr/Custom/Pmpr/Pmpr.php:153
+msgid "Tab's Sidebar"
+msgstr ""
+
+#: src/Pmpr/Custom/Pmpr/Pmpr.php:157
+msgid "Show Logos"
+msgstr "نمایش لگو"
+
+#: src/Pmpr/Custom/Pmpr/Pmpr.php:162
+#, fuzzy
+#| msgid "Team Title"
+msgid "Badges Title"
+msgstr "عنوان تیم"
+
+#: src/Pmpr/Custom/Pmpr/Pmpr.php:167 src/Pmpr/Custom/Pmpr/Setting.php:70
+msgid "Badges"
+msgstr "نشان‌ها"
+
+#: src/Pmpr/Custom/Pmpr/Pmpr.php:172
+msgid "Show Stackoverflow"
+msgstr ""
+
 #: src/Pmpr/Custom/Pmpr/Qualification/Qualification.php:66
 msgid "Comment Qualifications"
 msgstr ""
@@ -260,17 +390,13 @@ msgid "Items"
 msgstr "آیتم‌ها‌"
 
 #: src/Pmpr/Custom/Pmpr/Qualification/Setting.php:42
+#: src/Pmpr/Custom/Pmpr/Setting.php:74 src/Pmpr/Custom/Pmpr/Setting.php:100
 msgid "Enable"
 msgstr "فعال"
 
 #: src/Pmpr/Custom/Pmpr/Qualification/Setting.php:47
 msgid "Anonymous users"
 msgstr "کاربران ثبت نام نشده"
-
-#: src/Pmpr/Custom/Pmpr/Qualification/Setting.php:52
-#: src/Pmpr/Custom/Pmpr/Shortcode/Service.php:35
-msgid "Title"
-msgstr "عنوان"
 
 #: src/Pmpr/Custom/Pmpr/Qualification/Setting.php:62
 msgid "Layout"
@@ -284,9 +410,34 @@ msgstr "امتیاز"
 msgid "Dropdown"
 msgstr "کر‌کره‌ای"
 
-#: src/Pmpr/Custom/Pmpr/Setting.php:25
+#: src/Pmpr/Custom/Pmpr/Setting.php:34
 msgid "Pmpr Setting"
 msgstr "تنظیمات سفارشی"
+
+#: src/Pmpr/Custom/Pmpr/Setting.php:46
+msgid "Stackoverflow"
+msgstr ""
+
+#: src/Pmpr/Custom/Pmpr/Setting.php:50
+msgid "User ID"
+msgstr "شناسه کاربر"
+
+#: src/Pmpr/Custom/Pmpr/Setting.php:60 src/Pmpr/Custom/Pmpr/Setting.php:110
+#: src/Pmpr/Custom/Pmpr/Shortcode/Who.php:37
+msgid "Image"
+msgstr "تصویر"
+
+#: src/Pmpr/Custom/Pmpr/Setting.php:88
+msgid "Link"
+msgstr "پیوند"
+
+#: src/Pmpr/Custom/Pmpr/Setting.php:96
+msgid "Licenses"
+msgstr "مجوزها"
+
+#: src/Pmpr/Custom/Pmpr/Setting.php:115
+msgid "Content"
+msgstr "محتوا"
 
 #: src/Pmpr/Custom/Pmpr/Shortcode/Team.php:23
 msgid "Team"
@@ -319,10 +470,6 @@ msgstr "انتخاب همکاران"
 #: src/Pmpr/Custom/Pmpr/Shortcode/Who.php:27
 msgid "Who is"
 msgstr "کیست"
-
-#: src/Pmpr/Custom/Pmpr/Shortcode/Who.php:37
-msgid "Image"
-msgstr "تصویر"
 
 #: src/Pmpr/Custom/Pmpr/Shortcode/Who.php:44
 msgid "User"
@@ -358,6 +505,32 @@ msgstr "عضو"
 #: src/Pmpr/Custom/Pmpr/User.php:187
 msgid "Experience"
 msgstr "سابقه حرفه‌ای"
+
+#: src/Pmpr/Custom/Pmpr/Widget/Badge.php:17
+msgid "Badge"
+msgstr "نشان"
+
+#: src/Pmpr/Custom/Pmpr/Widget/Badge.php:17
+msgid "Display the badge of your site."
+msgstr ""
+
+#: src/Pmpr/Custom/Pmpr/Widget/Badge.php:28
+#: src/Pmpr/Custom/Pmpr/Widget/License.php:29
+msgid "leave empty if you want to show all items."
+msgstr ""
+
+#: src/Pmpr/Custom/Pmpr/Widget/Badge.php:29
+#: src/Pmpr/Custom/Pmpr/Widget/License.php:30
+msgid "Include Badges"
+msgstr ""
+
+#: src/Pmpr/Custom/Pmpr/Widget/License.php:18
+msgid "License"
+msgstr "مجوز"
+
+#: src/Pmpr/Custom/Pmpr/Widget/License.php:18
+msgid "Display the license of your site."
+msgstr ""
 
 #: src/Pmpr/Custom/Pmpr/Woocommerce/Attribute.php:93
 msgid "Attribute Type"
@@ -474,17 +647,15 @@ msgid_plural "%s years"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/Pmpr/Custom/Pmpr/Woocommerce/Woocommerce.php:46
-msgid "My Orders"
-msgstr "سفارش‌های من"
-
-#: src/Pmpr/Custom/Pmpr/Woocommerce/Woocommerce.php:51
-msgid "My Downloads"
-msgstr "دانلود‌های من"
-
-#: src/Pmpr/Custom/Pmpr/Woocommerce/Woocommerce.php:56
+#: src/Pmpr/Custom/Pmpr/Woocommerce/Woocommerce.php:45
 msgid "My Modules"
 msgstr "ماژول‌های من"
+
+#~ msgid "My Orders"
+#~ msgstr "سفارش‌های من"
+
+#~ msgid "My Downloads"
+#~ msgstr "دانلود‌های من"
 
 #~ msgid "%s Ownership"
 #~ msgstr "%s مشتری"
