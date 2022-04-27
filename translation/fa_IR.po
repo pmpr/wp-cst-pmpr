@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pmpr Custom Pmpr\n"
 "Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
-"POT-Creation-Date: 2022-04-21 21:08+0430\n"
+"POT-Creation-Date: 2022-04-27 22:29+0430\n"
 "PO-Revision-Date: \n"
 "Last-Translator: PMPR <pmpr.ir@gmail.com>\n"
 "Language-Team: Your Team <translations@example.com>\n"
@@ -92,6 +92,7 @@ msgid "Attributes"
 msgstr "ویژگی‌ها"
 
 #: src/Pmpr/Custom/Pmpr/Attribute/Setting.php:34
+#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:245
 #: src/Pmpr/Custom/Pmpr/Qualification/Setting.php:34
 #: src/Pmpr/Custom/Pmpr/Setting.php:42 src/Pmpr/Custom/Pmpr/Setting.php:66
 #: src/Pmpr/Custom/Pmpr/Woocommerce/Product.php:68
@@ -142,7 +143,7 @@ msgstr "نام جمع"
 
 #: src/Pmpr/Custom/Pmpr/Attribute/Setting.php:88
 #: src/Pmpr/Custom/Pmpr/CPT/Service.php:72
-#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:248
+#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:265
 #: src/Pmpr/Custom/Pmpr/Shortcode/Service.php:49
 msgid "Description"
 msgstr "شرح"
@@ -200,102 +201,105 @@ msgstr "%s دیگر"
 msgid "basket of %s %s"
 msgstr "سبد  %s %s"
 
-#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:58
+#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:59
 msgid "Success Stories"
 msgstr "داستان‌های موفقیت"
 
-#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:59
+#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:60
 msgid "Success Story"
 msgstr "داستان موفقیت"
 
-#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:60
+#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:61
 msgid "Success story post type"
 msgstr "نوع نوشته داستان موفقیت"
 
-#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:107
+#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:113
 msgid "View Website"
 msgstr "مشاهده وب‌سایت"
 
-#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:114
+#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:120
 msgid "View Product"
 msgstr "مشاهده محصول"
 
-#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:117
+#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:123
 msgid "Buy"
 msgstr "خرید"
 
-#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:119
+#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:125
 #, php-format
 msgid "on %s"
 msgstr "در %s"
 
-#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:131
+#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:137
 msgid "Order Information"
 msgstr "اطلاعات سفارش"
 
-#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:136
+#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:142
 msgid "Product"
 msgstr "محصول"
 
-#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:141
+#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:147
 msgid "Date"
 msgstr "تاریخ"
 
-#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:147
+#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:153
 msgid "Business Information"
 msgstr "اطلاعات کسب و کار"
 
-#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:153
+#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:159
 msgid "Founder User"
 msgstr "کاربر بنیانگذار"
 
-#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:158
+#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:164
 msgid "Founder Name"
 msgstr "نام بنیانگذار"
 
-#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:163
+#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:169
 msgid "Business Name"
 msgstr "نام کسب و کار"
 
-#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:168
+#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:174
 msgid "Business URL"
 msgstr "لینک کسب و کار (وب سایت)"
 
-#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:173
+#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:179
 msgid "Video URL"
 msgstr "لینک ویدیو"
 
-#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:178
+#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:184
 msgid "Founder Avatar"
 msgstr "آواتار بنیان گذار"
 
-#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:183
+#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:189
 msgid "Business Logo"
 msgstr "لگوی کسب و کار"
 
-#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:188
+#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:194
 msgid "Business Description"
 msgstr "شرح کسب و کار"
 
-#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:210
+#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:216
 msgid "as he tells the story"
 msgstr "را از زبان خودش بشنوید"
 
-#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:212
-#, php-format
-msgid "Success story of %s"
-msgstr "داستان موفقیت %s"
-
-#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:213
+#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:218
 #, php-format
 msgid "in using %s"
 msgstr "به کمک %s"
 
-#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:239
+#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:219
+msgid "Success story of"
+msgstr "داستان موفقیت"
+
+#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:249
+msgid "Avatar Placeholder"
+msgstr ""
+
+#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:256
 msgid "Archive Options"
 msgstr "گزینه‌های آرشیو"
 
-#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:243
+#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:260
 #: src/Pmpr/Custom/Pmpr/Qualification/Setting.php:52
 #: src/Pmpr/Custom/Pmpr/Setting.php:55 src/Pmpr/Custom/Pmpr/Setting.php:79
 #: src/Pmpr/Custom/Pmpr/Setting.php:105
@@ -303,8 +307,8 @@ msgstr "گزینه‌های آرشیو"
 msgid "Title"
 msgstr "عنوان"
 
-#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:253
-msgid "Background IMage"
+#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:270
+msgid "Background Image"
 msgstr ""
 
 #: src/Pmpr/Custom/Pmpr/CPT/Technology.php:23
