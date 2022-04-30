@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pmpr Custom Pmpr\n"
 "Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
-"POT-Creation-Date: 2022-04-27 22:29+0430\n"
+"POT-Creation-Date: 2022-04-30 12:15+0430\n"
 "PO-Revision-Date: \n"
 "Last-Translator: PMPR <pmpr.ir@gmail.com>\n"
 "Language-Team: Your Team <translations@example.com>\n"
@@ -92,7 +92,7 @@ msgid "Attributes"
 msgstr "ویژگی‌ها"
 
 #: src/Pmpr/Custom/Pmpr/Attribute/Setting.php:34
-#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:245
+#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:246
 #: src/Pmpr/Custom/Pmpr/Qualification/Setting.php:34
 #: src/Pmpr/Custom/Pmpr/Setting.php:42 src/Pmpr/Custom/Pmpr/Setting.php:66
 #: src/Pmpr/Custom/Pmpr/Woocommerce/Product.php:68
@@ -143,7 +143,7 @@ msgstr "نام جمع"
 
 #: src/Pmpr/Custom/Pmpr/Attribute/Setting.php:88
 #: src/Pmpr/Custom/Pmpr/CPT/Service.php:72
-#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:265
+#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:266
 #: src/Pmpr/Custom/Pmpr/Shortcode/Service.php:49
 msgid "Description"
 msgstr "شرح"
@@ -282,24 +282,29 @@ msgstr "شرح کسب و کار"
 msgid "as he tells the story"
 msgstr "را از زبان خودش بشنوید"
 
-#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:218
+#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:217
+#, php-format
+msgid "%s at"
+msgstr "%s در"
+
+#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:219
 #, php-format
 msgid "in using %s"
 msgstr "به کمک %s"
 
-#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:219
+#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:220
 msgid "Success story of"
 msgstr "داستان موفقیت"
 
-#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:249
+#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:250
 msgid "Avatar Placeholder"
 msgstr ""
 
-#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:256
+#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:257
 msgid "Archive Options"
 msgstr "گزینه‌های آرشیو"
 
-#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:260
+#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:261
 #: src/Pmpr/Custom/Pmpr/Qualification/Setting.php:52
 #: src/Pmpr/Custom/Pmpr/Setting.php:55 src/Pmpr/Custom/Pmpr/Setting.php:79
 #: src/Pmpr/Custom/Pmpr/Setting.php:105
@@ -307,7 +312,7 @@ msgstr "گزینه‌های آرشیو"
 msgid "Title"
 msgstr "عنوان"
 
-#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:270
+#: src/Pmpr/Custom/Pmpr/CPT/SuccessStory.php:271
 msgid "Background Image"
 msgstr ""
 
