@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             626cea754a189             |
+    |             626e65a4450cc             |
     |_______________________________________|
 */
- namespace Pmpr\Custom\Pmpr\Woocommerce\Subscription\Product; use WC_Product_Variation; class Variation extends WC_Product_Variation { public function get_type() : string { return "\163\165\x62\x73\143\x72\x69\160\x74\151\x6f\156\x5f\166\x61\162\151\x61\164\151\x6f\x6e"; } }
+ namespace Pmpr\Custom\Pmpr\Woocommerce\Subscription\Product; use WC_Product_Variation; class Variation extends WC_Product_Variation { public function get_type() : string { return "\163\x75\142\x73\143\162\151\160\164\x69\x6f\x6e\x5f\166\141\x72\x69\x61\164\151\157\156"; } }

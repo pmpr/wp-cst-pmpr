@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             626cea754a189             |
+    |             626e65a4450cc             |
     |_______________________________________|
 */
- namespace Pmpr\Custom\Pmpr\Shortcode; use Pmpr\Custom\Pmpr\Container; class Shortcode extends Container { public function kgquecmsgcouyaya() { $this->cecaguuoecmccuse("\155\144\154\x5f\137\x61\x64\x76\x6e\143\x64\137\x63\x6d\163\x5f\162\145\x67\151\x73\164\145\x72\x5f\163\x68\157\162\164\143\157\x64\x65\163", [$this, "\x72\145\147\x69\x73\x74\145\162"]); parent::kgquecmsgcouyaya(); } public function register($shortcodes = []) { return array_merge($shortcodes, [Who::symcgieuakksimmu(), Team::symcgieuakksimmu(), Service::symcgieuakksimmu()]); } }
+ namespace Pmpr\Custom\Pmpr\Shortcode; use Pmpr\Custom\Pmpr\Container; class Shortcode extends Container { public function kgquecmsgcouyaya() { $this->cecaguuoecmccuse("\x6d\x64\154\137\137\x61\144\x76\156\x63\144\137\x63\155\x73\137\x72\x65\147\151\163\x74\x65\x72\137\x73\x68\x6f\162\x74\143\x6f\144\145\163", [$this, "\x72\x65\x67\x69\x73\164\145\162"]); parent::kgquecmsgcouyaya(); } public function register($shortcodes = []) { return array_merge($shortcodes, [Who::symcgieuakksimmu(), Team::symcgieuakksimmu(), Service::symcgieuakksimmu()]); } }
