@@ -4,4 +4,4 @@
     |             640cfea216676             |
     |_______________________________________|
 */
- namespace Pmpr\Custom\Pmpr\Woocommerce\Subscription; use Pmpr\Custom\Pmpr\Woocommerce\Common as BaseClass; class Common extends BaseClass { }
+ namespace Pmpr\Custom\Pmpr\Ticket; class Ticket extends Common { }
