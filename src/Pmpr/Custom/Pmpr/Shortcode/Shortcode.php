@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             640cfea216676             |
+    |             64326fb30c7a5             |
     |_______________________________________|
 */
- namespace Pmpr\Custom\Pmpr\Shortcode; use Pmpr\Custom\Pmpr\Container; class Shortcode extends Container { public function aqyikqugcomoqqqi() { if (!($wksoawcgagcgoask = self::mqucqomkmisceawy("\141\144\166\141\156\143\145\x64\55\143\x6d\x73"))) { goto ikqqskkqqwmwssoo; } $this->cecaguuoecmccuse("{$wksoawcgagcgoask->aiqioscoyukqgsgw()}\137\x72\x65\x67\151\163\x74\x65\162\x5f\x73\x68\157\162\x74\x63\157\x64\145\x73", [$this, "\x72\145\x67\x69\x73\164\x65\x72"]); ikqqskkqqwmwssoo: } public function register($shortcodes = []) { return array_merge($shortcodes, [Who::symcgieuakksimmu(), Team::symcgieuakksimmu(), Service::symcgieuakksimmu()]); } }
+ namespace Pmpr\Custom\Pmpr\Shortcode; use Pmpr\Custom\Pmpr\Container; class Shortcode extends Container { public function aqyikqugcomoqqqi() { if (!($wksoawcgagcgoask = self::mqucqomkmisceawy("\x61\144\x76\x61\x6e\143\x65\144\55\x63\155\x73"))) { goto cuoqqgaygogsmmic; } $this->cecaguuoecmccuse("{$wksoawcgagcgoask->aiqioscoyukqgsgw()}\137\x72\x65\x67\151\163\x74\145\162\x5f\163\x68\157\x72\x74\x63\x6f\x64\x65\163", [$this, "\162\145\147\x69\x73\164\x65\x72"]); cuoqqgaygogsmmic: } public function register($shortcodes = []) { return array_merge($shortcodes, [Who::symcgieuakksimmu(), Team::symcgieuakksimmu(), Service::symcgieuakksimmu()]); } }
