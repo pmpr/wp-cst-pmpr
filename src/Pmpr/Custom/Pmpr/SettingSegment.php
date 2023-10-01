@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             65195d69297ce             |
+    |             651962412d846             |
     |_______________________________________|
 */
  namespace Pmpr\Custom\Pmpr; use Pmpr\Common\Foundation\FormGenerator\Backend\Setting\Segment; class SettingSegment extends Segment { public function __construct() { $this->setting = Setting::symcgieuakksimmu()->cisyiemkeykgkomc(); parent::__construct(); } }
