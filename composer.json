@@ -13,6 +13,11 @@
     "pmpr-cmn/wp-cmn-cover": "~1.1",
     "pmpr-cmn/wp-cmn-foundation": "~1.4"
   },
+  "prod-require": {
+    "php": "7.4",
+    "wordpress": "6.0",
+    "wp-cmn-foundation": "latest"
+  },
   "autoload": {
     "psr-4": {
       "Pmpr\\Custom\\Pmpr\\": "src/Pmpr/Custom/Pmpr"
@@ -22,5 +27,5 @@
     ]
   },
   "minimum-stability": "dev",
-  "tag": "1.1.38"
+  "tag": "1.1.39"
 }
