@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             66302eef91576             |
+    |             6634d53c3f1d0             |
     |_______________________________________|
 */
  namespace Pmpr\Custom\Pmpr\Widget; use Pmpr\Custom\Pmpr\Container; class Widget extends Container { public function mameiwsayuyquoeq() { Badge::symcgieuakksimmu(); } }
