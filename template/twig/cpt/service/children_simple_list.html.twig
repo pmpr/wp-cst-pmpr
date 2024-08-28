@@ -6,7 +6,10 @@
            class="d-flex card-link {{ link_class|esc_attr }}"
            href="{{ render_post_data('permalink', item) }}">
 
-            {{ render_post_data('image', item, {attrs: {class: image_class ~ ' mr-2'}})|raw }}
+            {% set icon = render_post_data('icon', item) %}
+            {% if icon is not empty %}
+                {{ render_icon(icon, {class: image_class ~ ' my-auto mr-2'}) }}
+            {% endif %}
 
             <span class="my-auto limit-line max-line-1 {{ title_class|esc_attr }}">{{ title|raw }}</span>
         </a>

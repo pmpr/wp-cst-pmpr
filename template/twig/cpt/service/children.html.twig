@@ -10,12 +10,10 @@
                 {% for item in items %}
                     <div class="{{ columns|esc_attr }} {{ card_bottom_margin(loop, columns, margin_bottom|default(6)) }}">
                         <div class="card bg-transparent">
-                            {{ render_post_data('image', item, {
-                                size: 'small',
-                                attrs: {
-                                    class: 'icon-info icon-sm mb-4 mx-auto',
-                                }
-                            })|raw }}
+                            {% set icon = render_post_data('icon', item) %}
+                            {% if icon is not empty %}
+                                {{ render_icon(icon, {class: 'icon-info icon-sm mb-4 mx-auto'}) }}
+                            {% endif %}
                             {% set title = render_post_data('title', item) %}
                             {% if title is not empty %}
                                 <a class="card-body text-center card-link" title="{{ title|esc_attr }}"
